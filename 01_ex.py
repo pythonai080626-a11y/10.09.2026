@@ -13,3 +13,18 @@
 # print(check_password('yossi', 'the-king')) #  --> 'user name yossi does not exist'
 # print(check_password('danny', 'the-king'))  # --> 'wrong password'
 # print(check_password('sharon', 'Password1!'))  # --> 'success'
+
+# 2
+# dic_swap
+# function which gets a dict and return dict
+
+# { 'a': 1, 'd': 'hi' } --> { 1: 'a', 'hi': 'd'}
+# BONUS
+# { 'a': 1, 'd': 1, 'c': 3 } --> { 1: ['a', 'd'], 3: 'c' }
+# { 'a': 1, 'd': 1, 'c': 3 , 'f': 1} --> { 1: ['a', 'd', 'f'], 3: 'c' }
+# def dict_swap(dict_input):
+#   return (1) dict swapped key-value
+#          (2) BONUS-- on same key return list
+#  test
+# print(dict_swap({ 'a': 1, 'd': 'hi' }))  # { 1: 'a', 'hi': 'd'}
+# print(dict_swap({ 'a': 1, 'd': 1, 'c': 3 , 'f': 1}))  # { 1: ['a', 'd', 'f'], 3: 'c' }
